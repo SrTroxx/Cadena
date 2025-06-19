@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Instalando dependencias..."
+      # Aquí se incluirían comandos para instalar dependencias, si aplica
+  build:
+    commands:
+      - echo "Compilando y ejecutando pruebas..."
+      # Comandos para compilar la aplicación y ejecutar pruebas
+artifacts:
+  files:
+    - '**/*'
